@@ -1,0 +1,91 @@
+.resume-title {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 36px;
+    font-weight: 700;
+    margin-top: 60;
+}
+
+.resume-subtitle {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 21px;
+    font-weight: 700;
+    margin-top: 25;
+}
+
+p {
+    font-family: 'Lato', sans-serif;
+    font-size: 16px;
+    margin-top:25;
+    margin-bottom:25;
+}
+
+.resume-info {
+    display: flex;
+    justify-content:space-between;
+    align-items:center;
+}
+
+.resume-date {
+    font-family: 'Lato', sans-serif;
+    color:white;
+    font-size: 12px;
+    font-weight: 700;
+    background: #5BC0DE;
+    border-radius: 4px;
+}
+
+.skills {
+    padding: 0;
+    margin-bottom: 36px;
+    list-style-type: none;
+}
+
+.skills-item {
+    margin-bottom: 15px;
+    border: 1px solid #f1f1f1;
+    border-radius:4px;
+    color: black;
+    position: relative;
+    font-family: 'Lato', sans-serif;
+}
+
+.skills-bg {
+    padding: 2px 5 px; 
+    display: block;
+    height: 100%;
+    border-radius: 4px;
+    position: relative;
+    overflow: hidden;
+}
+
+.skills-bg:before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    background-image: linear-gradient(135deg,rgba(255,255,255,.15) 25%,transparent 25%,transparent 50%,rgba(255,255,255,.15) 50%,rgba(255,255,255,.15) 75%,transparent 75%,transparent); 
+    background-size: 5rem 5rem;
+    z-index: 1;
+    border-top-right-radius: 8px;
+    border-bottom-right-radius: 8px;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+    overflow: hidden;
+  }
+
+  .photoshop{
+    width: 40%;
+    background: #2ECC71;
+  }
+
+  .ilustrator {
+    width: 45%;
+    background: orange;
+  }
+
+  .office {
+    width: 100%;
+    background:#C0392B;
+  }
